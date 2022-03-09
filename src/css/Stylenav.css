@@ -1,0 +1,48 @@
+.navbar_frame{
+    position: sticky;
+    top:0;
+    /* position: fixed; */
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(24, 73, 116,0.7);
+/* background-color: black; */
+
+    
+}
+.classtoggler{
+background-color: black;
+/* background-color: rgb(24, 73, 116,0.7); */
+
+
+
+}
+.logo{
+    margin-top: 0;
+   font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 2px blanchedalmond;
+}
+
+ul{
+    margin: 0;
+}
+.nav_component{
+    display: flex;
+    position:relative;
+    top:0;
+    right: -30%;
+    padding-left: 0.5vw;
+    /* background-color: aliceblue; */
+    /* justify-content: space-around; */
+    /* margin-right: 1vw; */
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px blue;
+    /* justify-content: flex-end; */
+}
+
+.nav_component li{
+    /* padding-right:100px; */
+    color: white;
+    list-style: none;
+    margin-right: 10vw;
+}
