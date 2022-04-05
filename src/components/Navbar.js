@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Stylenav.css';
+import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -11,9 +12,11 @@ export default function Navbar() {
         scrollTrigger:{
             
             trigger:".navbar_frame",
-            toggleClass:".classtoggler",
-                  toggleActions:"restart pause play complete",      
-           markers:true,
+            // markers:true,
+            toggleClass:"classtoggler",
+            // start:"top",
+            // toggleClass:".classtoggler",
+                  // toggleActions:"restart pause play complete",      
            
             
         }
@@ -26,9 +29,24 @@ export default function Navbar() {
     </ul>
     <div className='nav_component'>
        
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>kkm</li>
+   
+        <li> <Link to="/">
+        <a href="./Home" > Home </a>
+        </Link>
+        </li>
+        <li> <Link to="/character">
+        <a href="./Character" >Characters </a>
+        </Link>
+        </li>
+        <li> <Link to="/about">
+        <a href="./About" > Sorting Hat </a>
+        </Link>
+        </li>
+        <li> <Link to="/contact">
+        <a href="./Contact" > Contact </a>
+        </Link>
+        </li>
+        
     </div>
     </div>
   )

@@ -3,7 +3,7 @@
     top:0;
     /* position: fixed; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content:space-between;
     background-color: rgb(24, 73, 116,0.7);
 /* background-color: black; */
 
@@ -28,13 +28,13 @@ ul{
 }
 .nav_component{
     display: flex;
-    position:relative;
-    top:0;
-    right: -30%;
-    padding-left: 0.5vw;
+    /* position:relative; */
+    /* top:0; */
+    /* right: -30%; */
+    /* padding-left: 0.5vw; */
     /* background-color: aliceblue; */
     /* justify-content: space-around; */
-    /* margin-right: 1vw; */
+    margin-right: 1vw;
     font-size: 2vw;
     text-shadow: 2px 2px 2px blue;
     /* justify-content: flex-end; */
@@ -44,5 +44,9 @@ ul{
     /* padding-right:100px; */
     color: white;
     list-style: none;
-    margin-right: 10vw;
+    margin-right: 2vw;
+}
+.nav_component li a{
+    color: white;
+    text-decoration: none;
 }
