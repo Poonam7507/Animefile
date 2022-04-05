@@ -5,6 +5,7 @@
     display: flex;
     justify-content:space-between;
     background-color: rgb(24, 73, 116,0.7);
+    cursor: pointer;
 /* background-color: black; */
 
     

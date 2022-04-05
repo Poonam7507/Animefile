@@ -1,0 +1,41 @@
+.box{
+
+    background-color: black;
+    height: 100%;
+    width:100%;
+    position: fixed;
+    top:0;
+    left: 0;
+   
+}
+.quizbox{
+    /* height: 100%; */
+    padding: 2%;
+    background-size: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.7vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0.2vw 0.4vw 0.2vw rgb(139, 185, 78);
+}
+
+.imgbox{
+
+    padding: 2%;
+}
+.imgbox img{
+    width: 50vw;
+    height: 20vw;
+}
+
+
+.quizbtn{
+    justify-content: center;
+    color: white;
+    font-size: 2.2vw;
+    background-color:grey;
+}
+button:hover{
+    background-color: rgb(106, 233, 163);
+}
