@@ -10,6 +10,11 @@
 
     
 }
+.nav_component li a:hover{
+  color: burlywood;
+  
+}
+
 .classtoggler{
 background-color: black;
 /* background-color: rgb(24, 73, 116,0.7); */

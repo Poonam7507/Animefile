@@ -20,3 +20,29 @@ ul{
    
     margin-top: 17%;
 }
+
+.hname{
+    font-size: 3vw;
+    font-family: 'Tangerine', cursive;
+    color: white;
+    text-shadow: 0.2vw 0.4vw 0.3vw  rgb(197, 186, 190)
+}
+.house{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.housename{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10%;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.4vw rgb(165, 188, 229);
+    
+}
+.housename img{
+    width:20vw;
+    height:20vw;
+}

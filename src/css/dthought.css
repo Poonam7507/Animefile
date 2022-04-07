@@ -1,0 +1,13 @@
+.thoughtbox{
+    background-color: black; 
+    
+}
+.thoughts{
+    /* background-image: url('../assets/images/wallpaper.jpg'); */
+ 
+}
+
+.thoughts img{
+    width:30vw;
+    height:30vw;
+}

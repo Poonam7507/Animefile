@@ -1,4 +1,12 @@
-// import React from 'react';
+import React from 'react';
+import React from 'react'
+
+export default function Harrypotter() {
+  return (
+    <div>Harrypotter</div>
+  )
+}
+
 // import gsap from 'gsap';
 // import { useEffect,useRef } from 'react';
 // // import Charlist from './Char_list'

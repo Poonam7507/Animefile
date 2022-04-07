@@ -6,10 +6,12 @@ import MaincontentChar from './Maincontent_char'
 
 export default function Characters() {
   return (
+    <div>
     <div className='charpage'>
     <Navbar/>
     <MaincontentChar/>
     {/* <Harrypotter/> */}
+    </div>
     </div>
   )
 }

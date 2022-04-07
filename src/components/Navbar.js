@@ -43,7 +43,7 @@ export default function Navbar() {
         </Link>
         </li>
         <li> <Link to="/contact">
-        <a href="./Contact" > Contact </a>
+        <a href="./Contact" > Dumbledore Thoughts </a>
         </Link>
         </li>
         
