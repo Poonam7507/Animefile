@@ -1,6 +1,6 @@
 .navbar_frame{
-    position: sticky;
-    top:0;
+    /* position: sticky; */
+    /* top:0; */
     /* position: fixed; */
     display: flex;
     justify-content:space-between;

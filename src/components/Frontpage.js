@@ -35,6 +35,7 @@ scrollTrigger:{
   t1.from(".slythern",
   { 
 xPercent:100,
+
 scrollTrigger:{
   trigger:".slythern",
   scrub:true,
@@ -46,6 +47,7 @@ scrollTrigger:{
   t1.from(".hufflepuff",
   { 
 xPercent:-100,
+
 scrollTrigger:{
   trigger:".hufflepuff",
   scrub:true,
@@ -57,6 +59,7 @@ scrollTrigger:{
   t1.from(".ravenclaw",
   { 
 xPercent:100,
+
 scrollTrigger:{
   trigger:".ravenclaw",
   scrub:true,
