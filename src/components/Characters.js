@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import '../css/Stylrcharacter.css'
 import MaincontentChar from './Maincontent_char'
+import Footer from './Footer';
 
 export default function Characters() {
   return (
@@ -10,6 +11,7 @@ export default function Characters() {
     <div className='charpage'>
     <Navbar/>
     <MaincontentChar/>
+    <Footer/>
     {/* <Harrypotter/> */}
     </div>
     </div>

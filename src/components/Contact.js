@@ -15,6 +15,7 @@ import { useEffect } from 'react';
 
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
+import Footer from './Footer';
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -33,12 +34,13 @@ export default function Contact() {
     ty.to(".t1 img",{
   //  left:'50%',
   //  top:'50%',
-   margin:"5%",
-   marginBottom:"2%",
+   margin:"7%",
+   marginBottom:"3%",
    x:"400",
    duration:2,
    skewX:5,
    rotationY:360,
+
   //  skew:20,
   //  xPercent:-50,
   //  yPercent:-50,
@@ -50,8 +52,8 @@ export default function Contact() {
     
       scrollTrigger:{
         trigger:".t1",
-        // toggleActions:"play none none none",
-        markers:true,
+        toggleActions:"play none play none",
+        // markers:true,
         scrub:true
 
       }
@@ -60,8 +62,8 @@ export default function Contact() {
       // backgroundColor:"navyblue",
     //  x:-100,
 
-    margin:"5%",
-   marginBottom:"2%",
+    margin:"7%",
+    marginBottom:"3%",
 
     x:"400",
     duration:2,
@@ -71,7 +73,9 @@ export default function Contact() {
     
       scrollTrigger:{
         trigger:".t2",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -79,8 +83,8 @@ export default function Contact() {
     ty.to(".t3 img",{
       // backgroundColor:"blue",
     //  x:100,
-    margin:"5%",
-   marginBottom:"2%",
+    margin:"7%",
+    marginBottom:"3%",
 
     x:"400",
     duration:2,
@@ -90,7 +94,9 @@ export default function Contact() {
    
       scrollTrigger:{
         trigger:".t3",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -99,9 +105,8 @@ export default function Contact() {
       // backgroundColor:"red",
     // x:-100,
 
-    margin:"5%",
-   marginBottom:"2%",
-
+    margin:"7%",
+    marginBottom:"3%",
     x:"400",
     duration:2,
     skewX:5,
@@ -109,7 +114,9 @@ export default function Contact() {
   
       scrollTrigger:{
         trigger:".t4",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -118,8 +125,8 @@ export default function Contact() {
       // backgroundColor:"orange",
       // x:100,
 
-      margin:"5%",
-   marginBottom:"2%",
+      margin:"7%",
+      marginBottom:"3%",
 
       x:"400",
       duration:2,
@@ -129,7 +136,9 @@ export default function Contact() {
    
       scrollTrigger:{
         trigger:".t5",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -139,8 +148,8 @@ export default function Contact() {
       // x:-100,
 
 
-      margin:"5%",
-   marginBottom:"2%",
+      margin:"7%",
+      marginBottom:"3%",
 
       x:"400",
       duration:2,
@@ -149,7 +158,9 @@ export default function Contact() {
   
       scrollTrigger:{
         trigger:".t6",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -158,9 +169,8 @@ export default function Contact() {
       // backgroundColor:"green",
 
       // x:100,
-      margin:"5%",
-   marginBottom:"2%",
-
+      margin:"7%",
+      marginBottom:"3%",
       x:"400",
       duration:2,
       skewX:5,
@@ -169,7 +179,9 @@ export default function Contact() {
    
       scrollTrigger:{
         trigger:".t7",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -178,8 +190,8 @@ export default function Contact() {
       // backgroundColor:"skyblue",
       // x:-100,
 
-      margin:"5%",
-   marginBottom:"2%",
+      margin:"7%",
+   marginBottom:"3%",
 
       x:"400",
       duration:2,
@@ -189,7 +201,9 @@ export default function Contact() {
   
       scrollTrigger:{
         trigger:".t8",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -197,8 +211,8 @@ export default function Contact() {
     ty.to(".t9 img",{
       // backgroundColor:"crimson",
       // x:100,
-      margin:"5%",
-   marginBottom:"2%",
+      margin:"7%",
+      marginBottom:"3%",
 
       x:"400",
       duration:2,
@@ -209,7 +223,9 @@ export default function Contact() {
    
       scrollTrigger:{
         trigger:".t9",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
 
       }
@@ -217,8 +233,8 @@ export default function Contact() {
     ty.to(".t10 img",{
       // backgroundColor:"brown",
       // x:-100,
-      margin:"5%",
-   marginBottom:"2%",
+      margin:"7%",
+      marginBottom:"3%",
 
       x:"400",
       duration:2,
@@ -229,7 +245,9 @@ export default function Contact() {
   
       scrollTrigger:{
         trigger:".t10",
-        markers:true,
+        toggleActions:"play none play none",
+
+        // markers:true,
         scrub:true
         
       }
@@ -283,6 +301,7 @@ export default function Contact() {
       
         </div>
     </div>
+    <Footer/>
     </div>
   )
 }

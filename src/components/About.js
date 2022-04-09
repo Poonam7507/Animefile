@@ -5,6 +5,7 @@ import  '../css/StyleSortinghat.css';
 import {gsap} from 'gsap';
 import { useEffect,useRef } from 'react';
 import TextPlugin from "gsap/TextPlugin"
+import Footer from './Footer';
 gsap.registerPlugin(TextPlugin);
 
 export default function About() {
@@ -13,12 +14,13 @@ useEffect(() => {
 // const x1=imgbox.cu
 gsap.timeline()
   .from(".imgbox",{
-    opacity:0,
-  //  skewX:60,
-   translateY:-20,
-   translateX:50,
+    // opacity:0,
+    x:150,
+   skewX:20,
+  //  translateY:-20,
+  //  translateX:50,
    ease:'elastic(1,0,5)',
-   scale:-2,
+  //  scale:-2,
    duration:1
   })
   .from(".text",{
@@ -45,6 +47,7 @@ You will be sorted in your house on the basis of quiz
 <button className='quizbtn'>Start</button>
     </div>
     </div>
+    <Footer/>
     </div>
   )
 }

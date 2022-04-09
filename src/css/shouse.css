@@ -1,0 +1,18 @@
+.shouse{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.members{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+
+    
+}
+
+.team{
+    margin:2%;
+    
+}
+ 

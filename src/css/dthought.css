@@ -16,9 +16,16 @@
     width:100%;
     /* margin: auto; */
     height:40vw;
+    
     /* background-image: url('../assets/images/wallpaper.jpg'); */
 }
 
+ .t10{
+    width:100%;
+    height:50vw;
+
+
+}
 .thoughts img{
     border-radius: 10%;
     padding: 2%;

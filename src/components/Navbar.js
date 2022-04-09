@@ -18,12 +18,14 @@ export default function Navbar() {
     
     },{
       opacity:1,
-      ease:"power2",
+   ease:'elastic(1,0,5)',
+
       x:25,
     })
     .fromTo(".comp",{
       opacity:0,
-      ease:"power2"
+   ease:'elastic(1,0,5)',
+
     }
     ,{
       y:10,

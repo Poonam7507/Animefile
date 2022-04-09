@@ -1,11 +1,12 @@
 .navbar_frame{
-    /* position: sticky; */
-    /* top:0; */
+    position: sticky;
+    top:0;
     /* position: fixed; */
     display: flex;
     justify-content:space-between;
     background-color: rgb(24, 73, 116,0.7);
     cursor: pointer;
+    z-index: 3;
 /* background-color: black; */
 
     
