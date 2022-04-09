@@ -36,7 +36,7 @@ export default function Contact() {
   //  top:'50%',
    margin:"7%",
    marginBottom:"3%",
-   x:"400",
+   x:"40vw",
    duration:2,
    skewX:5,
    rotationY:360,
@@ -65,7 +65,7 @@ export default function Contact() {
     margin:"7%",
     marginBottom:"3%",
 
-    x:"400",
+    x:"40vw",
     duration:2,
     skewX:5,
     rotationY:360,
@@ -86,7 +86,7 @@ export default function Contact() {
     margin:"7%",
     marginBottom:"3%",
 
-    x:"400",
+    x:"40vw",
     duration:2,
     skewX:5,
     rotationY:360,
@@ -107,7 +107,7 @@ export default function Contact() {
 
     margin:"7%",
     marginBottom:"3%",
-    x:"400",
+    x:"40vw",
     duration:2,
     skewX:5,
     rotationY:360,
@@ -128,7 +128,7 @@ export default function Contact() {
       margin:"7%",
       marginBottom:"3%",
 
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,
@@ -151,7 +151,7 @@ export default function Contact() {
       margin:"7%",
       marginBottom:"3%",
 
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,
@@ -171,7 +171,7 @@ export default function Contact() {
       // x:100,
       margin:"7%",
       marginBottom:"3%",
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,
@@ -193,7 +193,7 @@ export default function Contact() {
       margin:"7%",
    marginBottom:"3%",
 
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,
@@ -214,7 +214,7 @@ export default function Contact() {
       margin:"7%",
       marginBottom:"3%",
 
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,
@@ -236,7 +236,7 @@ export default function Contact() {
       margin:"7%",
       marginBottom:"3%",
 
-      x:"400",
+      x:"40vw",
       duration:2,
       skewX:5,
       rotationY:360,

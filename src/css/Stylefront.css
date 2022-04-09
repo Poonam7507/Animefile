@@ -1,6 +1,7 @@
 ul{
     
     display: flex;
+    list-style: none;;
     /* justify-content:flex-start; */
 }
 
@@ -72,3 +73,48 @@ ul{
 .title{
     color: white;
 }
+
+/* 
+section img{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    object-fit: cover;
+} */
+
+.moon{
+    position:absolute;
+    left: -2vw;
+    top: 10vw;
+    width:20vw;
+
+}
+.owl{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width:20vw;
+
+}
+.building{
+    /* width:100%; */
+    background-size: cover;
+    background-position: center;
+   
+    width:80vw;
+opacity: 0.9;
+       background: linear-gradient(180deg,rgba(0,0,0,0) 20%,rgba(0,0,0,1));
+    height: 40vw;
+}
+section{
+    padding: 9%;
+    /* height: 40vw; */
+}
+/* .parallex::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+} */

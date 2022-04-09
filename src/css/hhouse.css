@@ -1,9 +1,9 @@
-.ghouse{
+.hhouse{
     background-color: black;
     color: white;
     margin: auto;
 }
-.ghouse .members{
+.hhouse .members{
     position: relative;
     display: flex;
     justify-content: space-around;
