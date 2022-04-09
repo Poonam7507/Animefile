@@ -20,7 +20,7 @@ export default function Navbar() {
       opacity:1,
    ease:'elastic(1,0,5)',
 
-      x:25,
+      x:"2.5vw",
     })
     .fromTo(".comp",{
       opacity:0,
@@ -65,15 +65,15 @@ export default function Navbar() {
         </Link>
         </li>
         <li className='comp'> <Link to="/character">
-        <a href="./Character" >Characters </a>
+        <a href="./Character" >Main_Characters </a>
         </Link>
         </li>
-        <li className='comp'> <Link to="/about">
-        <a href="./About" > Sorting Hat </a>
+        <li className='comp'> <Link to="/sortinghat">
+        <a href="./Sortinghat" > Sorting Hat </a>
         </Link>
         </li>
-        <li className='comp'> <Link to="/contact">
-        <a href="./Contact" > Dumbledore Thoughts </a>
+        <li className='comp'> <Link to="/thoughts">
+        <a href="./Thoughts" > Dumbledore'sThoughts </a>
         </Link>
         </li>
         

@@ -101,6 +101,7 @@ section img{
     /* width:100%; */
     background-size: cover;
     background-position: center;
+    border-radius: 10%;
    
     width:80vw;
 opacity: 0.9;

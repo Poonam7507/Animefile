@@ -1,0 +1,22 @@
+.puzzlebox{
+    background-color: black;
+    min-height: 150vw;
+}
+.tag{
+    text-align: center;
+    color: white;
+
+}
+.jigsaw-puzzle{
+    width:30vw;
+    height:30vw;
+    border:0.2vw solid white;
+    margin: auto;
+    /* box-shadow: 0.2vw 0.2vw 0.2vw white; */
+}
+
+.jigsaw-puzzle_piece{
+    width:2%;
+    height:2%;
+
+}
