@@ -4,16 +4,30 @@
     margin: auto;
 }
 .ghouse .members{
+    
     position: relative;
     display: flex;
     justify-content: space-around;
-    flex-direction:column-reverse;
+    flex-direction:column;
+    color: white;
     /* left: 33%; */
     /* top:50% */
     
 }
 
+.members h1{
+    text-align: center;
+    font-size: 2.3vw;
+
+}
+
+.members h1 span{
+    overflow: hidden;
+    margin-right: 1vw;
+    display: inline-block;
+}
 .team{
+    margin: 12%;
     display: flex;
     justify-content: center;
 }
@@ -22,3 +36,9 @@
     width: 20vw;
 }
  
+.team h2{
+  
+    font-size: 2vw;
+    margin: 3%;
+    margin-top: 4%;
+}

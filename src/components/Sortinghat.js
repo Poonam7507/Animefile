@@ -74,9 +74,7 @@ You will be sorted for tour in the house on the basis of Puzzle
     </Link>
       
     </div>
-{/* <Link to="/jigpuzzle">
-<a href="./Quiz1" ><button className='quizbtn'>Start </button></a> 
-</Link> */}
+
     </div>
     <Footer/>
     </div>

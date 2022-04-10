@@ -1,4 +1,6 @@
 import React from 'react'
+import { useEffect } from 'react';
+
 import Footer from './Footer'
 import Navbar from './Navbar'
 import img1 from '../assets/images/chochang.jpg'
@@ -7,33 +9,107 @@ import img3 from '../assets/images/warren.jpg'
 import img4 from '../assets/images/lovegood.jpg'
 import img5 from '../assets/images/quirrell.jpg'
 import '../css/rhouse.css'
+import {gsap} from 'gsap';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 export default function Ravenclaw() {
+  useEffect(() => {
+   gsap.from(".members  h1 span",{
+      delay:.5,
+      skewX:-50,
+      skewY:20,
+      stagger:.4,
+      y:50,
+      x:-20,
+      opacity:0,
+      // repeat:-1,
+      
+    })
+    gsap.timeline()
+
+.from(" .grp1 img",{
+      rotate:180,
+      scale:2,
+      duration:0.8,
+      y:"1.5vw",
+      opacity:0,
+     
+     
+    })
+    .from(" .grp1 h2",{
+      x:"30vw",
+      
+      ease:"elastic",
+      opacity:0,
+      duration:1,
+     
+    })
+  .from(" .grp2 img",{
+      rotate:180,
+      scale:2,
+      duration:0.8,
+      y:"1.5vw",
+      opacity:0,
+      scrollTrigger:{
+        trigger:"grp2 ",
+        scrub:true,
+      },
+      stagger:{
+        amount:5
+      }
+    })
+    
+  
+   .from(" .grp2 h2",{
+       x:"30vw",
+       
+       ease:"elastic",
+       opacity:0,
+       duration:3,
+       scrollTrigger:{
+        trigger:"grp2 ",
+        scrub:true,
+      },
+      stagger:{
+        amount:7
+      }
+     })
+    
+   
+       
+     
+  }, [])
+  
   return (
     <div className='rhouse'>
     <Navbar/>
     <div className='members'>
-    <div className="team">
+    <div className="team grp1">
          <img src={img1} alt=" "/>
-          <h2>HarryPotter</h2>
+          <h2>Cho Chang</h2>
          </div>
-         <div className="team">
+         <div className="team grp2">
          <img src={img2} alt=" "/>
-         <h2>Ronald Weasley</h2>
+         <h2>Luna Lovegood</h2>
 
 
          </div>
-         <div className="team">
+         <div className="team grp2">
          <img src={img3} alt=" "/>
-         <h2>Harmoine Granger</h2>
+         <h2>Myrtle Warren</h2>
 
 
          </div>
-         <div className="team">
+         <div className="team grp2">
          <img src={img4}  alt=" "/>
+         <h2>Xenophilius Lovegood</h2>
+
 
          </div>
-         <div className="team">
+         <div className="team grp2">
          <img src={img5} alt=" "/>
+         <h2>Quirrell</h2>
+
 
          </div>
         

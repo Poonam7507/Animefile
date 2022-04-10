@@ -3,16 +3,42 @@
     color: white;
     margin: auto;
 }
-.members{
+.shouse .members{
+    position: relative;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
 
+    justify-content: space-around;
+    /* left: 33%; */
+    /* top:50% */
     
 }
 
+
+ 
+.members h1{
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.members h1 span{
+    overflow: hidden;
+    margin-right: 1vw;
+    display: inline-block;
+}
 .team{
-    margin:2%;
-    
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+}
+.team img{
+    height: 20vw;
+    width: 20vw;
 }
  
+.team h2{
+  
+    font-size: 2vw;
+    margin: 3%;
+    margin-top: 4%;
+}
