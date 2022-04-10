@@ -18,7 +18,8 @@ export default function Navbar() {
     
     },{
       opacity:1,
-   ease:'elastic(1,0,5)',
+      ease:'elastic(1,0,5)',
+
 
       x:"2.5vw",
     })
@@ -81,3 +82,5 @@ export default function Navbar() {
     </div>
   )
 }
+
+

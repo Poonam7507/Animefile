@@ -8,7 +8,7 @@ import img2 from '../assets/images/luna.jpg'
 import img3 from '../assets/images/warren.jpg'
 import img4 from '../assets/images/lovegood.jpg'
 import img5 from '../assets/images/quirrell.jpg'
-import '../css/rhouse.css'
+import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -22,7 +22,7 @@ export default function Ravenclaw() {
       y:50,
       x:-20,
       opacity:0,
-      // repeat:-1,
+      repeat:-1,
       
     })
     gsap.timeline()
@@ -81,9 +81,11 @@ export default function Ravenclaw() {
   }, [])
   
   return (
-    <div className='rhouse'>
+    <div className='Hhouse'>
     <Navbar/>
     <div className='members'>
+    <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>
+
     <div className="team grp1">
          <img src={img1} alt=" "/>
           <h2>Cho Chang</h2>

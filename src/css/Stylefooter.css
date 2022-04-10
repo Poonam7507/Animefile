@@ -1,6 +1,12 @@
 .footer{
     margin-bottom: 0px;
+    margin-top: 2%;
     background-color: black;
     color: white;
-    font-size: 2vw;
+    font-size: 1.7vw;
+    /* width: 99%; */
+    height: 3.5vw;
+    text-align: center;
+    padding: 1%;
+    /* border-top: 0.1vw solid white; */
 }

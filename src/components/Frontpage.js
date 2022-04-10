@@ -123,25 +123,26 @@ scrollTrigger:{
   }, [])
   
  function func(){
-   const p=prompt("Please enter passcode: (you can get it by sorting hat quiz)");
+   
+  const p=prompt("Please enter passcode : (you can get it by sorting hat quiz)");
   {if(p===null || p==="")
 {
   // return <a href='./character'/>
   alert("Can't take you inside the door");
 }
-else if(p==="g"){
+else if(p.toUpperCase() ==="CAPUT DRACONIS"  || p.toLowerCase() ==="caput draconis"){
   setShow1(true);
   alert("Click on welcome button")
 }
-else if(p==="s"){
+else if(p.toUpperCase() ==="PURE BLOOD"  || p.toLowerCase() ==="pure blood"){
   setShow2(true);
   alert("Click on welcome button")
 }
-else if(p==="h"){
+else if(p.toUpperCase() ==="WIZARDRY"  || p.toLowerCase() ==="wizardry"){
   setShow3(true);
   alert("Click on welcome button")
 }
-else if(p==="r"){
+else if(p.toUpperCase() ==="HOGWARTS CASTLE"  || p.toLowerCase() ==="hogwarts castle"){
   setShow4(true);
   alert("Click on welcome button")
 }

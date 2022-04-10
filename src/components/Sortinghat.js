@@ -23,14 +23,7 @@ gsap.timeline()
   .from(".imgbox",{
     scale:0,
     y:-10,
-    // opacity:0,
-    // x:150,
-  //  skewX:20,
-  //  translateY:-20,
-  //  translateX:50,
-  //  ease:'elastic(1,0,5)',
-  //  scale:-2,
-  //  duration:1
+   
   })
   .from(".text",{
     opacity:0,
@@ -48,35 +41,45 @@ gsap.timeline()
     <div className='imgbox' >
 <img src={hat} alt=""/>
     </div>
+    <div>
     <div className='text'>
 
 
     {/* ziuq fo sisab eht no esuoh ruoy ni detros eb lliw uoy */}
 You will be sorted for tour in the house on the basis of Puzzle
     </div>
+
     <button className='quizbtn' onClick={disbtn}>Start </button>
     <div className='btngrp' style={{display:showbtn?"block":"none"}}>
+    <div>
     <Link to="/jigpuzzle1">
-    <a href="./Quiz1" > <button>Gryffindor Puzzle</button></a>
+    <a href="./Quiz1" > <button className='pbtn'>Gryffindor Puzzle</button></a>
 
     </Link>
+    </div>
+    <div>
     <Link to="/jigpuzzle2">
-    <a href="./Quiz2" > <button>Slythern Puzzle</button></a>
+    <a href="./Quiz2" > <button className='pbtn'>Slythern Puzzle</button></a>
 
     </Link>
+    </div>
+    <div>
     <Link to="/jigpuzzle3">
-    <a href="./Quiz3" > <button>Hufflepuff Puzzle</button></a>
+    <a href="./Quiz3" > <button className='pbtn'>Hufflepuff Puzzle</button></a>
 
     </Link>
+    </div>
+    <div>
     <Link to="/jigpuzzle4">
-    <a href="./Quiz4" > <button>Ravenclaw Puzzle</button></a>
+    <a href="./Quiz4" > <button className='pbtn'>Ravenclaw Puzzle</button></a>
 
     </Link>
-      
+    </div>
+      </div>
     </div>
 
     </div>
-    <Footer/>
     </div>
   )
 }
+

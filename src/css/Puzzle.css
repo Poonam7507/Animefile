@@ -1,10 +1,13 @@
 .puzzlebox{
     background-color: black;
-    min-height: 150vw;
+    min-height: 100vh;
+    height: 100%;
+    font-size: 2vw;
 }
 .tag{
     text-align: center;
     color: white;
+    margin: 6%;
 
 }
 .jigsaw-puzzle{
@@ -19,4 +22,37 @@
     width:2%;
     height:2%;
 
+}
+
+@media screen  and (max-width:441px){
+    .tag{
+        margin: 17%;
+        font-size: 4vw;
+    }
+
+    .jigsaw-puzzle{
+        width: 50vw;
+        height: 50vw;
+    }
+    .jigsaw-puzzle_piece{
+        width: 5%;
+        height: 5%;
+    }
+}
+
+@media screen  and (max-width:281px){
+    .tag{
+        margin: 22%;
+        font-size: 5vw;
+
+    }
+
+    .jigsaw-puzzle{
+        width: 60vw;
+        height: 60vw;
+    }
+    .jigsaw-puzzle_piece{
+        width: 5%;
+        height: 5%;
+    }
 }

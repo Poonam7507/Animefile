@@ -5,13 +5,12 @@ import {JigsawPuzzle} from 'react-jigsaw-puzzle/lib'
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import img from '../assets/images/cedric.jpg';
 import '../css/Puzzle.css'
-import Footer from './Footer';
 import Navbar from './Navbar';
 
 export default function Quiz3() {
-    const [text, setText] = useState("Unpuzzle the pieces");
+    const [text, setText] = useState("Unpuzzle the pieces( use 3 rows and 3 columns )");
     const set=()=>{
-        setText("Congratulations !! Your Hufflepuff Passkey is 's' ");
+        setText("Congratulations !! Your Hufflepuff Passkey is 'Wizardry' ");
     };
   return (
     <div className='puzzlebox'>
@@ -25,7 +24,6 @@ columns={3}
 onSolved={set}
 className="jigsaw-puzzle"
 />
-<Footer/>
 </div>
     </div>
   );

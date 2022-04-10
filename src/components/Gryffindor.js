@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import '../css/ghouse.css'
+import '../css/Hoghouse.css'
 import Navbar from './Navbar';
 import Footer from './Footer';
 import img1 from '../assets/images/harry.jpg'
@@ -24,7 +24,7 @@ export default function Gryffindor() {
       y:50,
       x:-20,
       opacity:0,
-      // repeat:-1,
+      repeat:-1,
       
     })
     gsap.timeline()
@@ -54,6 +54,8 @@ export default function Gryffindor() {
       opacity:0,
       scrollTrigger:{
         trigger:"grp2 ",
+        start:"top",
+
         scrub:true,
       },
       stagger:{
@@ -70,6 +72,7 @@ export default function Gryffindor() {
        duration:3,
        scrollTrigger:{
         trigger:"grp2 ",
+        start:"top",
         scrub:true,
       },
       stagger:{
@@ -83,7 +86,7 @@ export default function Gryffindor() {
   }, [])
   
   return (
-    <div className='ghouse'>
+    <div className='Hhouse'>
     <Navbar/>
     <div className='members'>
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>

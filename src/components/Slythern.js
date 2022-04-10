@@ -8,7 +8,7 @@ import img2 from '../assets/images/crabbe.jpg'
 import img3 from '../assets/images/tomriddle.jpg'
 import img4 from '../assets/images/bellatrix.jpg'
 import img5 from '../assets/images/goyle.jpg'
-import '../css/shouse.css'
+import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -84,7 +84,7 @@ export default function Slythern() {
   }, [])
   
   return (
-    <div className='shouse'>
+    <div className='Hhouse'>
         <Navbar/>
         <div className='members'>
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>

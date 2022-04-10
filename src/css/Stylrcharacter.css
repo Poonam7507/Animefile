@@ -21,7 +21,7 @@
     right: 0;
     margin-right: 1%; */
     /* border: 2px solid snow; */
-    box-shadow: 5px 5px 8px 10px grey ;
+    box-shadow: 0.5vw 0.5vw 0.8vw 1vw grey ;
     padding: 1%;
 }
 
@@ -38,4 +38,34 @@
 }
 .image1{
    margin: 3%;
+}
+
+@media screen and (max-width:490px) {
+    .box1{
+        font-size: 2.2vw;
+        padding: 2%;
+        margin: 2%;
+
+    }
+    .title{
+        font-size: 7vw;
+    }
+    .image1{
+        margin: 12%;
+    }
+}
+@media screen and (max-width:365px) {
+    .box1{
+        font-size: 2.2vw;
+        padding: 2%;
+        margin: 2%;
+
+    }
+    .title{
+        font-size: 7vw;
+    }
+    .image1{
+        margin: 12%;
+        margin-bottom: 27%;
+    }
 }

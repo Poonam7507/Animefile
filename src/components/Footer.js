@@ -4,7 +4,7 @@ import '../css/Stylefooter.css'
 export default function Footer() {
   return (
     <div className='footer'>
-        <p>Hogwarts copyright :&copy;</p>
+         &copy; 2021 copyright: Hogwarts
         
     </div>
   )

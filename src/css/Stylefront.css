@@ -92,7 +92,7 @@ section img{
 }
 .owl{
     position: absolute;
-    top: 20%;
+    top: 9vw;
     right: 0;
     width:20vw;
 
@@ -119,3 +119,31 @@ section{
     bottom: 0;
     width:100%;
 } */
+
+@media screen and (max-width:382px){
+
+    section{
+        padding: 15%;
+    }
+    .owl{
+        top:18vw;
+    }
+    .font{
+  font-size: 4vw;
+    }
+    .hname{
+        font-size: 7vw;
+
+    }
+    .housename .text{
+        font-size: 3vw;
+
+    }
+
+    .housename .btn{
+font-size: 2vw;
+    }
+    .btn a{
+        font-size: 2vw;
+    }
+}

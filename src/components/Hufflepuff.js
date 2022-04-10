@@ -8,7 +8,7 @@ import img2 from '../assets/images/hannah.jpg'
 import img3 from '../assets/images/finch.jpg'
 import img4 from '../assets/images/sprout.jpg'
 import img5 from '../assets/images/leanne.jpg'
-import '../css/hhouse.css'
+import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -23,7 +23,7 @@ export default function Hufflepuff() {
       y:50,
       x:-20,
       opacity:0,
-      // repeat:-1,
+      repeat:-1,
       
     })
     gsap.timeline()
@@ -82,7 +82,7 @@ export default function Hufflepuff() {
   }, [])
   
   return (
-    <div className='hhouse'>
+    <div className='Hhouse'>
         <Navbar/>
         <div className='members'>
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>

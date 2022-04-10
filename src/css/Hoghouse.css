@@ -1,24 +1,26 @@
-.ghouse{
+.Hhouse{
     background-color: black;
     color: white;
     margin: auto;
+    min-height: 100vh;
+    height: 100%;
 }
-.ghouse .members{
-    
+.Hhouse .members{
     position: relative;
     display: flex;
+    flex-direction: column;
+
     justify-content: space-around;
-    flex-direction:column;
-    color: white;
     /* left: 33%; */
     /* top:50% */
     
 }
 
+
+ 
 .members h1{
     text-align: center;
     font-size: 2.3vw;
-
 }
 
 .members h1 span{
@@ -27,7 +29,7 @@
     display: inline-block;
 }
 .team{
-    margin: 12%;
+    margin: 6%;
     display: flex;
     justify-content: center;
 }
@@ -38,7 +40,32 @@
  
 .team h2{
   
-    font-size: 2vw;
+    font-size: 2.2vw;
     margin: 3%;
     margin-top: 4%;
+}
+
+@media screen and (max-width:386px) {
+    .members{
+        padding: 12%;
+        
+        
+    }
+    .members h1{
+        font-size: 3vw;
+
+    }
+
+    .team{
+        margin: 10%;
+    }
+    .team h2{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width:340px) {
+
+    .team{
+        margin: 15%;
+    }
 }
