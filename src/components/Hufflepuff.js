@@ -8,6 +8,8 @@ import img2 from '../assets/images/hannah.jpg'
 import img3 from '../assets/images/finch.jpg'
 import img4 from '../assets/images/sprout.jpg'
 import img5 from '../assets/images/leanne.jpg'
+import flag from '../assets/images/hflag.jpg'
+import room from '../assets/images/hroom.jpg'
 import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
@@ -85,8 +87,8 @@ export default function Hufflepuff() {
     <div className='Hhouse'>
         <Navbar/>
         <div className='members'>
+        
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>
-
     <div className="team grp1">
          <img src={img1} alt=" "/>
           <h2>Cedric</h2>
@@ -114,6 +116,14 @@ export default function Hufflepuff() {
          <h2>Leanne</h2>
 
 
+         </div>
+         <div className="team grp2">
+         <img src={flag} alt=" "/>
+          <h2>Hufflepuff Flag</h2>
+         </div>
+    <div className="team grp2">
+         <img src={room} alt=" "/>
+          <h2>Common Room</h2>
          </div>
         
     </div>

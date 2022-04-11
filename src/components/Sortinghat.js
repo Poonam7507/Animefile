@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 
 import {gsap} from 'gsap';
 import TextPlugin from "gsap/TextPlugin"
-import Footer from './Footer';
-import Quiz from './Quiz1';
 gsap.registerPlugin(TextPlugin);
 
 export default function About() {
@@ -16,9 +14,7 @@ export default function About() {
   const disbtn=()=>{
     setShowbtn(true);
   }
-  // const a=useRef(null);
 useEffect(() => {
-// const x1=imgbox.cu
 gsap.timeline()
   .from(".imgbox",{
     scale:0,
@@ -45,7 +41,6 @@ gsap.timeline()
     <div className='text'>
 
 
-    {/* ziuq fo sisab eht no esuoh ruoy ni detros eb lliw uoy */}
 You will be sorted for tour in the house on the basis of Puzzle
     </div>
 

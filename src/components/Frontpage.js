@@ -16,13 +16,6 @@ import revenclaw from '../assets/images/ravenclaw.gif';
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
-
-
-// import Character from './Characters'
-
-
-
-
 export default function Frontpage() {
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -35,12 +28,9 @@ export default function Frontpage() {
     y:"9vw",
     scale:1.3,
     ease:"power1",
-    // repeat:-1,
-    // repeatDelay:4
   })
   .fromTo(".owl",{
     duration:1.5,
-    // repeat:-1,
     yoyo:true,
     scale:2
     
@@ -54,20 +44,11 @@ export default function Frontpage() {
   .to(".building",{
     scale:1,
     x:"5vw",
-  //  ease:'elastic(1,0,5)',
-    
-    // x:"6vw",
     duration:0.5,
-    // repeat:-1,
-    // repeatDelay:1.5
 
   })
 
-  // ScrollTrigger.create({
-  //   animation:t1,
-  //   trigger:".parallex",
-  //   scrub:true
-  // })
+ 
   t1.from(".gryffindor",
   { 
 xPercent:-100,
@@ -75,8 +56,6 @@ scrollTrigger:{
   start:"center",
       trigger:".gryffindor",
       scrub:true,
-  //     // pin:true,
-      // markers:true
 
     }
     });
@@ -87,8 +66,6 @@ xPercent:100,
 scrollTrigger:{
   trigger:".slythern",
   scrub:true,
-//     // pin:true,
-  // markers:true
 
 }
     });
@@ -99,8 +76,6 @@ xPercent:-100,
 scrollTrigger:{
   trigger:".hufflepuff",
   scrub:true,
-//     // pin:true,
-  // markers:true
 
 }
     });
@@ -111,8 +86,6 @@ xPercent:100,
 scrollTrigger:{
   trigger:".ravenclaw",
   scrub:true,
-//     // pin:true,
-  // markers:true
 
 }
     });
@@ -127,7 +100,6 @@ scrollTrigger:{
   const p=prompt("Please enter passcode : (you can get it by sorting hat quiz)");
   {if(p===null || p==="")
 {
-  // return <a href='./character'/>
   alert("Can't take you inside the door");
 }
 else if(p.toUpperCase() ==="CAPUT DRACONIS"  || p.toLowerCase() ==="caput draconis"){
@@ -160,7 +132,6 @@ else {
 <img src={liveimg3} className="moon" alt=" "/>
 <img src={liveimg2} className="building" alt=" "/>
 <img src={liveimg1} className="owl" alt=" "/>
-{/* <img src={liveimg3} className="owl" alt=" "/> */}
     </section>
     <ul>
         <li>
@@ -183,17 +154,12 @@ else {
                
              }}
            />
-                {/* Welcome To the World Of Magic */}
             </div>
         </li>
-        {/* <li> */}
         <img src={img2} className="img img2" style={{width:"20vw"}}/>
         
-        {/* </li> */}
-        {/* <li> */}
         <img src={img1} className="img img1" style={{width:"21vw"}}/>
         
-        {/* </li> */}
       
        
     </ul>

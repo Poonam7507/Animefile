@@ -67,7 +67,7 @@ const product=()=>{
             id:8,
             title:'Severus Snape',
             description:"Severus Snape is a fictional character in J. K. Rowling's Harry Potter series. He is an exceptionally skilled wizard whose sarcastic, controlled exterior conceals deep emotions and anguish.",
-            image:<img  src={img8} alt="" style={{marginBottom:"16vw"}}/>
+            image:<img  src={img8} alt="" style={{marginBottom:"10vw"}}/>
     
     
         }

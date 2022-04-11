@@ -32,42 +32,33 @@ export default function Contact() {
     
     
     ty.to(".t1 img",{
-  //  left:'50%',
-  //  top:'50%',
    margin:"7%",
    marginBottom:"3%",
    x:"40vw",
    duration:2,
-   skewX:5,
+   skewX:"0.5vw",
+
    rotationY:360,
 
-  //  skew:20,
-  //  xPercent:-50,
-  //  yPercent:-50,
-
-      // backgroundColor:"gray",
-      // x:100,
       
     
     
       scrollTrigger:{
         trigger:".t1",
         toggleActions:"play none play none",
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t2 img",{
-      // backgroundColor:"navyblue",
-    //  x:-100,
 
     margin:"7%",
     marginBottom:"3%",
 
     x:"40vw",
     duration:2,
-    skewX:5,
+    skewX:"0.5vw",
+
     rotationY:360,
     
     
@@ -75,20 +66,18 @@ export default function Contact() {
         trigger:".t2",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t3 img",{
-      // backgroundColor:"blue",
-    //  x:100,
     margin:"7%",
     marginBottom:"3%",
 
     x:"40vw",
     duration:2,
-    skewX:5,
+    skewX:"0.5vw",
+
     rotationY:360,
       
    
@@ -96,41 +85,38 @@ export default function Contact() {
         trigger:".t3",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t4 img",{
-      // backgroundColor:"red",
-    // x:-100,
 
     margin:"7%",
     marginBottom:"3%",
     x:"40vw",
     duration:2,
-    skewX:5,
+    skewX:"0.5vw",
+
     rotationY:360,
   
       scrollTrigger:{
         trigger:".t4",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t5 img",{
-      // backgroundColor:"orange",
-      // x:100,
+    
 
       margin:"7%",
       marginBottom:"3%",
 
       x:"40vw",
       duration:2,
-      skewX:5,
+      skewX:"0.5vw",
+
       rotationY:360,
       
    
@@ -138,14 +124,12 @@ export default function Contact() {
         trigger:".t5",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t6 img",{
-      // backgroundColor:"pink",
-      // x:-100,
+     
 
 
       margin:"7%",
@@ -153,27 +137,26 @@ export default function Contact() {
 
       x:"40vw",
       duration:2,
-      skewX:5,
+      skewX:"0.5vw",
+
       rotationY:360,
   
       scrollTrigger:{
         trigger:".t6",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t7 img",{
-      // backgroundColor:"green",
-
-      // x:100,
+     
       margin:"7%",
       marginBottom:"3%",
       x:"40vw",
       duration:2,
-      skewX:5,
+      skewX:"0.5vw",
+
       rotationY:360,
       
    
@@ -181,21 +164,20 @@ export default function Contact() {
         trigger:".t7",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t8 img",{
-      // backgroundColor:"skyblue",
-      // x:-100,
+      
 
       margin:"7%",
    marginBottom:"3%",
 
       x:"40vw",
       duration:2,
-      skewX:5,
+      skewX:"0.5vw",
+
       rotationY:360,
       
   
@@ -203,20 +185,18 @@ export default function Contact() {
         trigger:".t8",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t9 img",{
-      // backgroundColor:"crimson",
-      // x:100,
       margin:"7%",
       marginBottom:"3%",
 
       x:"40vw",
       duration:2,
-      skewX:5,
+      skewX:"0.5vw",
+
       rotationY:360,
 
       
@@ -225,32 +205,23 @@ export default function Contact() {
         trigger:".t9",
         toggleActions:"play none play none",
 
-        // markers:true,
         scrub:true
 
       }
     })
     ty.to(".t10 img",{
-      // backgroundColor:"brown",
-      // x:-100,
+      
       margin:"7%",
       marginBottom:"3%",
 
       x:"40vw",
       duration:2,
-      skewX:5,
-      rotationY:360,
+      skewX:"0.5vw",
+      rotationX:360,
 
       
   
-      scrollTrigger:{
-        trigger:".t10",
-        toggleActions:"play none play none",
-
-        // markers:true,
-        scrub:true
-        
-      }
+   
     })
   
     

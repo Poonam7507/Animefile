@@ -8,6 +8,8 @@ import img2 from '../assets/images/crabbe.jpg'
 import img3 from '../assets/images/tomriddle.jpg'
 import img4 from '../assets/images/bellatrix.jpg'
 import img5 from '../assets/images/goyle.jpg'
+import flag from '../assets/images/sflag.jpg'
+import room from '../assets/images/sroom.webp'
 import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
@@ -87,6 +89,7 @@ export default function Slythern() {
     <div className='Hhouse'>
         <Navbar/>
         <div className='members'>
+        
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>
 
         <div className="team grp1">
@@ -117,6 +120,14 @@ export default function Slythern() {
          <h2>Goyle</h2>
          
 
+         </div>
+         <div className="team grp2">
+         <img src={flag} alt=" "/>
+          <h2>Slythern Flag</h2>
+         </div>
+    <div className="team grp2">
+         <img src={room} alt=" "/>
+          <h2>Common Room</h2>
          </div>
         </div>
         <Footer/>

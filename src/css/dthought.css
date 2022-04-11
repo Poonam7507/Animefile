@@ -15,11 +15,10 @@
 }
 .thoughts{
     
-    width:100%;
+    /* width:100%; */
     /* margin: auto; */
     height:40vw;
     
-    /* background-image: url('../assets/images/wallpaper.jpg'); */
 }
 
  .t10{
@@ -36,4 +35,53 @@
     /* margin-bottom: 5%; */
     width:35vw;
     height:30vw;
+}
+
+@media screen and (max-width:385px) {
+    .thoughts img{
+        width:30vw;
+    height:25vw;
+    }
+
+    .thoughts{
+    
+        /* width:100%; */
+        /* margin: auto; */
+        height:50vw;
+        
+    }
+}
+
+@media screen and (max-width:359px) {
+    .thoughts img{
+        width:29vw;
+    height:24vw;
+    }
+
+    .thoughts{
+    
+        /* width:100%; */
+        /* margin: auto; */
+        height:55vw;
+        
+    }
+}
+@media screen and (max-width:323px) {
+  .thoughts{
+      height: 60vw;
+  }
+
+  .t9{
+         height: 70vw;
+  }
+}
+
+@media screen and (max-width:271px) {
+    .thoughts{
+        height: 65vw;
+    }
+  
+    .t9{
+           height: 72vw;
+    }
 }

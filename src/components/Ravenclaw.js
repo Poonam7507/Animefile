@@ -8,6 +8,8 @@ import img2 from '../assets/images/luna.jpg'
 import img3 from '../assets/images/warren.jpg'
 import img4 from '../assets/images/lovegood.jpg'
 import img5 from '../assets/images/quirrell.jpg'
+import flag from '../assets/images/rflag.jpg'
+import room from '../assets/images/rroom.jpg'
 import '../css/Hoghouse.css'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
@@ -84,6 +86,7 @@ export default function Ravenclaw() {
     <div className='Hhouse'>
     <Navbar/>
     <div className='members'>
+   
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>
 
     <div className="team grp1">
@@ -113,6 +116,14 @@ export default function Ravenclaw() {
          <h2>Quirrell</h2>
 
 
+         </div>
+         <div className="team grp2">
+         <img src={flag} alt=" "/>
+          <h2>Ravenclaw Flag</h2>
+         </div>
+    <div className="team grp2">
+         <img src={room} alt=" "/>
+          <h2>Common Room</h2>
          </div>
         
     </div>

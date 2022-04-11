@@ -10,6 +10,8 @@ import img4 from '../assets/images/neville.jpg'
 import img5 from '../assets/images/ginny.jpg'
 import img6 from '../assets/images/fred.jpg'
 import img7 from '../assets/images/george.jpg'
+import flag from '../assets/images/gflag.jpg'
+import room from '../assets/images/groom.jpg'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -25,6 +27,9 @@ export default function Gryffindor() {
       x:-20,
       opacity:0,
       repeat:-1,
+
+     
+     
       
     })
     gsap.timeline()
@@ -89,6 +94,8 @@ export default function Gryffindor() {
     <div className='Hhouse'>
     <Navbar/>
     <div className='members'>
+   
+    
     <h1><span>Members</span><span>Of</span><span>The</span><span>House</span></h1>
     <div className="team grp1">
          <img src={img1} alt=" "/>
@@ -128,6 +135,14 @@ export default function Gryffindor() {
          <h2>George Weasley</h2>
 
 
+         </div>
+         <div className="team grp2">
+         <img src={flag} alt=" "/>
+          <h2>Gryffindor Flag</h2>
+         </div>
+    <div className="team grp2">
+         <img src={room} alt=" "/>
+          <h2>Common Room</h2>
          </div>
     </div>
        
