@@ -21,13 +21,13 @@ gsap.timeline()
     y:-10,
    
   })
-  .from(".text",{
-    opacity:0,
-    text:{value:"ziuq fo sisab eht no esuoh ruoy ni detros eb lliw uoy",delimiter:" "},
-    duration:4,
-    repeat:Infinity,
-    repeatDelay:2
-  })
+  // .from(".text",{
+  //   opacity:0,
+  //   text:{value:"ziuq fo sisab eht no esuoh ruoy ni detros eb lliw uoy",delimiter:" "},
+  //   duration:4,
+  //   repeat:Infinity,
+  //   repeatDelay:2
+  // })
 }, [])
 
   return (

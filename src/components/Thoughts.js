@@ -23,7 +23,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Contact() {
   useEffect(() => {
-    const arrColors=["navy","blue","royalblue","slateblue","cornflowerblue","dodgerblue","deepskyblue","lightskyblue","lightblue","powderblue"]
+    const arrColors=["mediumpurple","navy","royalblue","slateblue","cornflowerblue","dodgerblue","deepskyblue","lightskyblue","lightblue","powderblue"]
     gsap.set(".thoughts",{
   backgroundColor:gsap.utils.wrap(arrColors)
     })
@@ -49,7 +49,12 @@ export default function Contact() {
         scrub:true
 
       }
+     
+
+      
     })
+
+
     ty.to(".t2 img",{
 
     margin:"7%",
